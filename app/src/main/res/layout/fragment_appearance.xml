@@ -1,0 +1,292 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/smile_title"
+            style="@style/Title"
+            android:text="Smile"
+            />
+
+        <TextView
+            android:id="@+id/smile_quest"
+            style="@style/Question"
+            android:text="@string/smile_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/smile_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/smil_rb5"
+                style="@style/RadioButton"
+                android:text="@string/smil_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/smil_rb4"
+                style="@style/RadioButton"
+                android:text="@string/smil_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/smile_rb3"
+                style="@style/RadioButton"
+                android:text="@string/smil_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/smil_rb2"
+                style="@style/RadioButton"
+                android:text="@string/smil_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/smil_rb1"
+                style="@style/RadioButton"
+                android:text="@string/smil_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/uniform_title"
+            style="@style/Title"
+            android:text="Uniform"
+            />
+
+        <TextView
+            android:id="@+id/uniform_quest"
+            style="@style/Question"
+            android:text="@string/uniform_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/uniform_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <RadioButton
+                android:id="@+id/unif_rb5"
+                style="@style/RadioButton"
+                android:text="@string/unif_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/unif_rb4"
+                style="@style/RadioButton"
+                android:text="@string/unif_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/unif_rb3"
+                style="@style/RadioButton"
+                android:text="@string/unif_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/unif_rb2"
+                style="@style/RadioButton"
+                android:text="@string/unif_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/unif_rb1"
+                style="@style/RadioButton"
+                android:text="@string/unif_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/style_title"
+            style="@style/Title"
+            android:text="@string/style"
+            />
+
+        <TextView
+            android:id="@+id/style_quest"
+            style="@style/Question"
+            android:text="@string/style_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/style_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/styl_rb5"
+                style="@style/RadioButton"
+                android:text="@string/styl_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/styl_rb4"
+                style="@style/RadioButton"
+                android:text="@string/styl_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/styl_rb3"
+                style="@style/RadioButton"
+                android:text="@string/styl_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/styl_rb2"
+                style="@style/RadioButton"
+                android:text="@string/styl_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/styl_rb1"
+                style="@style/RadioButton"
+                android:text="@string/styl_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/direction_title"
+            style="@style/Title"
+            android:text="Direction"
+            />
+
+        <TextView
+            android:id="@+id/direction_quest"
+            style="@style/Question"
+            android:text="@string/direction_qtext"
+            />
+
+
+        <RadioGroup
+            android:id="@+id/direction_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <RadioButton
+                android:id="@+id/dire_rb5"
+                style="@style/RadioButton"
+                android:text="@string/dire_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/dire_rb4"
+                style="@style/RadioButton"
+                android:text="@string/dire_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/dire_rb3"
+                style="@style/RadioButton"
+                android:text="@string/dire_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/dire_rb2"
+                style="@style/RadioButton"
+                android:text="@string/dire_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/dire_rb1"
+                style="@style/RadioButton"
+                android:text="@string/dire_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/positioning_title"
+            style="@style/Title"
+            android:text="Positioning"
+            />
+
+        <TextView
+            android:id="@+id/positioning_quest"
+            style="@style/Question"
+            android:text="@string/positioning_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/positioning_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <RadioButton
+                android:id="@+id/posi_rb5"
+                style="@style/RadioButton"
+                android:text="@string/posi_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/posi_rb4"
+                style="@style/RadioButton"
+                android:text="@string/posi_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/posi_rb3"
+                style="@style/RadioButton"
+                android:text="@string/posi_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/posi_rb2"
+                style="@style/RadioButton"
+                android:text="@string/posi_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/posi_rb1"
+                style="@style/RadioButton"
+                android:text="@string/posi_tx1"
+                />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

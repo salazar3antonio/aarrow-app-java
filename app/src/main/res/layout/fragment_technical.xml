@@ -1,0 +1,306 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/difficulty_title"
+            style="@style/Title"
+            android:text="@string/difficulty"
+            />
+
+        <TextView
+            android:id="@+id/difficulty_quest"
+            style="@style/Question"
+            android:text="@string/difficulty_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/difficulty_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/diff_rb5"
+                style="@style/RadioButton"
+                android:text="@string/diff_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/diff_rb4"
+                style="@style/RadioButton"
+                android:text="@string/diff_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/diff_rb3"
+                style="@style/RadioButton"
+                android:text="@string/diff_tx3"/>
+
+            <RadioButton
+                android:id="@+id/diff_rb2"
+                style="@style/RadioButton"
+                android:text="@string/diff_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/diff_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/diff_tx1"
+                />
+
+        </RadioGroup>
+
+
+        <View
+            style="@style/Divider"
+            />
+
+
+        <TextView
+            android:id="@+id/power_title"
+            style="@style/Title"
+            android:text="@string/power"
+            />
+
+        <TextView
+            android:id="@+id/power_quest"
+            style="@style/Question"
+            android:text="@string/power_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/power_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/powr_rb5"
+                style="@style/RadioButton"
+                android:text="@string/powr_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/powr_rb4"
+                style="@style/RadioButton"
+                android:text="@string/powr_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/powr_rb3"
+                style="@style/RadioButton"
+                android:text="@string/powr_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/powr_rb2"
+                style="@style/RadioButton"
+                android:text="@string/powr_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/powr_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/powr_tx1"
+                />
+
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+
+        <TextView
+            android:id="@+id/transitions_title"
+            style="@style/Title"
+            android:text="@string/transitions"
+            />
+
+        <TextView
+            android:id="@+id/transitions_quest"
+            style="@style/Question"
+            android:text="@string/transitions_qtext"
+            />
+
+
+        <RadioGroup
+            android:id="@+id/transitions_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/tran_rb5"
+                style="@style/RadioButton"
+                android:text="@string/tran_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/tran_rb4"
+                style="@style/RadioButton"
+                android:text="@string/tran_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/tran_rb3"
+                style="@style/RadioButton"
+                android:text="@string/tran_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/tran_rb2"
+                style="@style/RadioButton"
+                android:text="@string/tran_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/tran_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/tran_tx1"
+                />
+
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+
+        <TextView
+            android:id="@+id/catches_title"
+            style="@style/Title"
+            android:text="@string/catches"
+            />
+
+        <TextView
+            android:id="@+id/catches_quest"
+            style="@style/Question"
+            android:text="@string/catches_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/catches_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/catc_rb5"
+                style="@style/RadioButton"
+                android:text="@string/catc_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/catc_rb4"
+                style="@style/RadioButton"
+                android:text="@string/catc_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/catc_rb3"
+                style="@style/RadioButton"
+                android:text="@string/catc_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/catc_rb2"
+                style="@style/RadioButton"
+                android:text="@string/catc_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/catc_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/catc_tx1"
+                />
+
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+
+        <TextView
+            android:id="@+id/freezes_title"
+            style="@style/Title"
+            android:text="@string/freezes"
+            />
+
+        <TextView
+            android:id="@+id/freezes_quest"
+            style="@style/Question"
+            android:text="@string/freezes_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/freezes_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/free_rb5"
+                style="@style/RadioButton"
+                android:text="@string/free_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/free_rb4"
+                style="@style/RadioButton"
+                android:text="@string/free_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/free_rb3"
+                style="@style/RadioButton"
+                android:text="@string/free_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/free_rb2"
+                style="@style/RadioButton"
+                android:text="@string/free_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/free_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/free_tx1"
+                />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

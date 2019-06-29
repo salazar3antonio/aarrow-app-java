@@ -1,0 +1,128 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="15dp"
+        >
+
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/bonus"
+            />
+
+        <Spinner
+            android:id="@+id/bonus_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/bonus_array"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:spinnerMode="dialog"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+
+            />
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/demerit"
+            />
+
+        <Spinner
+            android:id="@+id/demerit_spinner"
+            android:entries="@array/demerit_array"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:spinnerMode="dialog"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            />
+
+        <View
+            style="@style/Divider"
+            />
+
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/great_at"
+            />
+
+        <EditText
+            android:id="@+id/doing_great_at"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/great_at_hint"
+            />
+
+        <View
+            style="@style/Divider"
+            />
+
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/bad_at"
+            />
+
+        <EditText
+            android:id="@+id/improvements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bad_at_hint"
+            />
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            style="@style/Title"
+            android:text="Photo Signature"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+
+            <ImageView
+                android:id="@+id/photoSig_thumbnail"
+                android:layout_width="128dp"
+                android:layout_height="72dp"
+                />
+
+            <ImageButton
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/photoSig_thumbnail"
+                android:id="@+id/photoSig_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_camera"
+                android:layout_marginLeft="10dp"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

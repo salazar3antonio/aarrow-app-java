@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.aarrowsignspinners.myaudits.AuditActivity">
+
+    <item
+        android:id="@+id/summary_menu"
+        android:icon="@drawable/ic_donut_large_white_24dp"
+        android:title="@string/audit_summary"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never"/>-->
+
+
+</menu>

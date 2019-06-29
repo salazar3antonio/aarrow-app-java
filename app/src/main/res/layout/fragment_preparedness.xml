@@ -1,0 +1,247 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/confirmation_title"
+            style="@style/Title"
+            android:text="@string/confirmation_tx"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/q1_textView"
+                style="@style/Question"
+                android:layout_centerVertical="true"
+                android:text="@string/confirmation_qtext"
+                />
+
+            <RadioGroup
+                android:id="@+id/confirmation_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/q1_textView"
+                android:gravity="end"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/conf_yes"
+                    style="@style/RadioButton"
+                    android:paddingRight="2dp"
+                    android:text="@string/rb_yes"
+                    />
+
+                <RadioButton
+                    android:id="@+id/conf_no"
+                    style="@style/RadioButton"
+                    android:text="@string/rb_no"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/arrivaltext_title"
+            style="@style/Title"
+            android:text="@string/arrivaltext_tx"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/q_two_textView"
+                style="@style/Question"
+                android:layout_centerVertical="true"
+                android:text="@string/arrival_qtext"
+                />
+
+            <RadioGroup
+                android:id="@+id/arrival_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/q_two_textView"
+                android:gravity="end"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/arrival_yes"
+                    style="@style/RadioButton"
+                    android:paddingRight="2dp"
+                    android:text="@string/rb_yes"
+                    />
+
+                <RadioButton
+                    android:id="@+id/arrival_no"
+                    style="@style/RadioButton"
+                    android:text="@string/rb_no"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/signinsheet_title"
+            style="@style/Title"
+            android:text="@string/signinsheet_tx"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/q_three_textView"
+                style="@style/Question"
+                android:layout_centerVertical="true"
+                android:text="@string/sis_qtext"
+                />
+
+            <RadioGroup
+                android:id="@+id/sis_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/q_three_textView"
+                android:gravity="end"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/sis_yes"
+                    style="@style/RadioButton"
+                    android:paddingRight="2dp"
+                    android:text="@string/rb_yes"
+                    />
+
+                <RadioButton
+                    android:id="@+id/sis_no"
+                    style="@style/RadioButton"
+                    android:text="@string/rb_no"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View
+            style="@style/Divider"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/ontime_title"
+            style="@style/Title"
+            android:text="@string/ontime_tx"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/q_four_textView"
+                style="@style/Question"
+                android:layout_centerVertical="true"
+                android:text="@string/ontime_qtext"
+                />
+
+            <RadioGroup
+                android:id="@+id/ontime_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/ontime_yes"
+                    style="@style/RadioButton"
+                    android:paddingRight="2dp"
+                    android:text="@string/rb_yes"
+                    />
+
+                <RadioButton
+                    android:id="@+id/ontime_no"
+                    style="@style/RadioButton"
+                    android:text="@string/rb_no"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/water_title"
+            style="@style/Title"
+            android:text="@string/water_tx"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/q_five_textView"
+                style="@style/Question"
+                android:layout_centerVertical="true"
+                android:text="@string/water_qtext"
+                />
+
+            <RadioGroup
+                android:id="@+id/water_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:id="@+id/water_yes"
+                    style="@style/RadioButton"
+                    android:paddingRight="2dp"
+                    android:text="@string/rb_yes"
+                    />
+
+                <RadioButton
+                    android:id="@+id/water_no"
+                    style="@style/RadioButton"
+                    android:text="@string/rb_no"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

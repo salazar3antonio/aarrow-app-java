@@ -1,0 +1,305 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/aam_title"
+            style="@style/Title"
+            android:text="@string/aam"
+            />
+
+        <TextView
+            android:id="@+id/aam_quest"
+            style="@style/Question"
+            android:text="@string/aam_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/aam_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/aam_rb5"
+                style="@style/RadioButton"
+                android:text="@string/aam_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/aam_rb4"
+                style="@style/RadioButton"
+                android:text="@string/aam_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/aam_rb3"
+                style="@style/RadioButton"
+                android:text="@string/aam_tx3"/>
+
+            <RadioButton
+                android:id="@+id/aam_rb2"
+                style="@style/RadioButton"
+                android:text="@string/aam_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/aam_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/aam_tx1"
+                />
+
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/presentation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/presentation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        <TextView
+            android:id="@+id/presentation_quest"
+            style="@style/Question"
+            android:text="@string/presentation_qtext"
+            />
+
+
+        <RadioGroup
+            android:id="@+id/presentation_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/pres_rb5"
+                style="@style/RadioButton"
+                android:text="@string/pres_tx5"
+                />
+
+
+            <RadioButton
+                android:id="@+id/pres_rb4"
+                style="@style/RadioButton"
+                android:text="@string/pres_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/pres_rb3"
+                style="@style/RadioButton"
+                android:text="@string/pres_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/pres_rb2"
+                style="@style/RadioButton"
+                android:text="@string/pres_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/pres_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/pres_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/eyecontact_title"
+            style="@style/Title"
+            android:text="@string/eyecontact"
+            />
+
+        <TextView
+            android:id="@+id/eyecontact_quest"
+            android:text="@string/eyecontact_qtext"
+            style="@style/Question"
+            />
+
+
+        <RadioGroup
+            android:id="@+id/eyecontact_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <RadioButton
+                android:id="@+id/eyec_rb5"
+                style="@style/RadioButton"
+                android:text="@string/eyec_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/eyec_rb4"
+                style="@style/RadioButton"
+                android:text="@string/eyec_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/eyec_rb3"
+                style="@style/RadioButton"
+                android:text="@string/eyec_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/eyec_rb2"
+                style="@style/RadioButton"
+                android:text="@string/eyec_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/eyec_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/eyec_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/awareness_title"
+            style="@style/Title"
+            android:text="@string/awareness"
+            />
+
+        <TextView
+            android:id="@+id/awareness_quest"
+            style="@style/Question"
+            android:text="@string/awareness_qtext"
+            />
+
+        <RadioGroup
+            android:id="@+id/awareness_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <RadioButton
+                android:id="@+id/awar_rb5"
+                style="@style/RadioButton"
+                android:text="@string/awar_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/awar_rb4"
+                style="@style/RadioButton"
+                android:text="@string/awar_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/awar_rb3"
+                style="@style/RadioButton"
+                android:text="@string/awar_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/awar_rb2"
+                style="@style/RadioButton"
+                android:text="@string/awar_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/awar_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/awar_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            style="@style/Divider"
+            />
+
+        <TextView
+            android:id="@+id/safety_title"
+            style="@style/Title"
+            android:text="@string/safetyandcontrol"
+            />
+
+        <TextView
+            android:id="@+id/safety_quest"
+            android:text="@string/safety_qtext"
+            style="@style/Question"
+            />
+
+        <RadioGroup
+            android:id="@+id/safety_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/safe_rb5"
+                style="@style/RadioButton"
+                android:text="@string/safe_tx5"
+                />
+
+            <RadioButton
+                android:id="@+id/safe_rb4"
+                style="@style/RadioButton"
+                android:text="@string/safe_tx4"
+                />
+
+            <RadioButton
+                android:id="@+id/safe_rb3"
+                style="@style/RadioButton"
+                android:text="@string/safe_tx3"
+                />
+
+            <RadioButton
+                android:id="@+id/safe_rb2"
+                style="@style/RadioButton"
+                android:text="@string/safe_tx2"
+                />
+
+            <RadioButton
+                android:id="@+id/safe_rb1"
+                style="@style/RadioButton"
+                android:checked="true"
+                android:text="@string/safe_tx1"
+                />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,315 @@
+<resources>
+    <string name="app_name">AArrow Audits</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_audit">Sign Spinner Audit</string>
+
+    <string name="audit_summary_email">
+        Hi %1$s,
+        \n
+        \n
+        Your total audit score today was a %2$s while spinning at %3$s.
+        \n
+        \n
+        Below is a summary of your audit:
+        \n
+        \n
+        Appearance: %4$s/25
+        \n
+        Advertising: %5$s/25
+        \n
+        Energy: %6$s/25
+        \n
+        Technical: %7$s/25
+        \n
+        \n
+        Note for areas of greatness:
+        \n
+        %8$s
+        \n
+        \n
+        Note for areas of improvement:
+        \n
+        %9$s
+        \n
+        \n
+        Keep up the great work.
+        \n
+        \n
+        - Your AArrow Auditor
+    </string>
+
+    <string name="isPhotoSigned">Photo Signed</string>
+    <string name="isNotPhotoSigned">NOT Photo Signed</string>
+
+    <!--Basic Information Section-->
+    <string name="information">Information</string>
+    <string name="spinner_name">Sign Spinner Name</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="corner">Corner</string>
+
+    <!--Preparedness Section-->
+    <string name="preparedness">Preparedness</string>
+    <string name="confirmation_tx">Confirmation</string>
+    <string name="arrivaltext_tx">Arrival Text</string>
+    <string name="signinsheet_tx">Sign in Sheet</string>
+    <string name="ontime_tx">On Time</string>
+    <string name="water_tx">Water</string>
+
+
+    <!--Appearance Section-->
+    <string name="appearance">Appearance</string>
+
+    <!--Smile Sub-Section-->
+    <string name="smilePoints">Smile</string>
+    <string name="smil_tx1">1. :-X</string>
+    <string name="smil_tx2">2. :-(</string>
+    <string name="smil_tx3">3. :-|</string>
+    <string name="smil_tx4">4. ;-)</string>
+    <string name="smil_tx5">5. :D</string>
+
+    <!--Uniform Sub-Section-->
+    <string name="uniformPoints">Uniform</string>
+    <string name="unif_tx5">5. Clean &amp; Complete w/ Accessories</string>
+    <string name="unif_tx4">4. Clean &amp; Complete</string>
+    <string name="unif_tx3">3. Faded or Dirty</string>
+    <string name="unif_tx2">2. Incomplete</string>
+    <string name="unif_tx1">1. No Uniform</string>
+
+    <!--Style Sub-Section-->
+    <string name="style">Style</string>
+    <string name="styl_tx1">1. Eww&#8230;</string>
+    <string name="styl_tx2">2. Beat Up</string>
+    <string name="styl_tx3">3. Scruffy</string>
+    <string name="styl_tx4">4. Well-Groomed</string>
+    <string name="styl_tx5">5. So Fresh and So Clean</string>
+
+    <!--Direction Sub-Section-->
+    <string name="directionPoints">Direction</string>
+    <string name="dire_tx5">5. On Point</string>
+    <string name="dire_tx4">4. Most of the time</string>
+    <string name="dire_tx3">3. Random</string>
+    <string name="dire_tx2">2. Ground / Sky</string>
+    <string name="dire_tx1">1. Wrong Way</string>
+
+    <!--Positioning Sub-Section-->
+    <string name="positioningPoints">Positioning</string>
+    <string name="posi_tx5">5. Active Positioning</string>
+    <string name="posi_tx4">4. Center Stage</string>
+    <string name="posi_tx3">3. Poor Corner or Side</string>
+    <string name="posi_tx2">2. Wrong Intersection</string>
+    <string name="posi_tx1">1. Where is Waldo?</string>
+
+
+    <!--Advertising Section-->
+    <string name="advertising">Advertising</string>
+
+    <!--AAM Sub-Section-->
+    <string name="aam">AArrow Attention Method</string>
+    <string name="aam_tx5">5. Perfect Every Time</string>
+    <string name="aam_tx4">4. Frequent</string>
+    <string name="aam_tx3">3. Occasional</string>
+    <string name="aam_tx2">2. Rare</string>
+    <string name="aam_tx1">1. None</string>
+
+    <!--Presentation Sub-Section-->
+    <string name="presentation">Presentation</string>
+    <string name="pres_tx5">5. Clean</string>
+    <string name="pres_tx4">4. Some Presentation</string>
+    <string name="pres_tx3">3. Arms Blocking Sign</string>
+    <string name="pres_tx2">2. Resting at Feet</string>
+    <string name="pres_tx1">1. On Ground</string>
+
+
+    <!--Eye Contact Sub-Section-->
+    <string name="eyecontact">Eye Contact</string>
+    <string name="eyec_tx5">5. All Targets</string>
+    <string name="eyec_tx4">4. Most Targets</string>
+    <string name="eyec_tx3">3. Some Targets</string>
+    <string name="eyec_tx2">2. Looking the Wrong Way</string>
+    <string name="eyec_tx1">1. Looking at Nothing</string>
+
+
+    <!--Awareness Sub-Section-->
+    <string name="awareness">Awareness</string>
+    <string name="awar_tx5">5. 360 Degrees</string>
+    <string name="awar_tx4">4. Checking Over Shoulder</string>
+    <string name="awar_tx3">3. Looking Around</string>
+    <string name="awar_tx2">2. Staring Straight Ahead</string>
+    <string name="awar_tx1">1. Not Paying Attention</string>
+
+
+    <!--Safety & Control Sub-Section-->
+    <string name="safetyandcontrol">Safety and Control</string>
+    <string name="safe_tx5">5. In Total Control</string>
+    <string name="safe_tx4">4. Safe and Respectful</string>
+    <string name="safe_tx3">3. Cutting it Close</string>
+    <string name="safe_tx2">2. Out of Control</string>
+    <string name="safe_tx1">1. Dangerous</string>
+
+
+    <!--Energy Section-->
+    <string name="energy">Energy</string>
+
+    <!--Personality Sub-Section-->
+    <string name="personality">Personality</string>
+    <string name="pers_tx5">5. Advertising Superstar</string>
+    <string name="pers_tx4">4. Performer</string>
+    <string name="pers_tx3">3. Professional</string>
+    <string name="pers_tx2">2. Slacker</string>
+    <string name="pers_tx1">1. Shy Zombie</string>
+
+    <!--Spinteraction Sub-Section-->
+    <string name="spinteraction">Spinteraction</string>
+    <string name="spin_tx5">5. The Crowd Goes Wild</string>
+    <string name="spin_tx4">4. Crowd Reaction</string>
+    <string name="spin_tx3">3. 1-on-1 Experiences</string>
+    <string name="spin_tx2">2. Blank Stares</string>
+    <string name="spin_tx1">1. Shy Avoiding Interaction</string>
+
+    <!--Dancing Sub-Section-->
+    <string name="dancing">Dancing</string>
+    <string name="danc_tx5">5. Choreographed Routine</string>
+    <string name="danc_tx4">4. Busting a Move</string>
+    <string name="danc_tx3">3. Some Dancing</string>
+    <string name="danc_tx2">2. Moves with the Sign</string>
+    <string name="danc_tx1">1. Concrete Feet</string>
+
+    <!--Endurance Sub-Section-->
+    <string name="endurance">Endurance</string>
+    <string name="endu_tx5">5. Iron Spinner</string>
+    <string name="endu_tx4">4. Rock Steady</string>
+    <string name="endu_tx3">3. Consistent</string>
+    <string name="endu_tx2">2. Barely Moving</string>
+    <string name="endu_tx1">1. Breathing</string>
+
+    <!--Recovery Sub-Section-->
+    <string name="recovery">Recovery</string>
+    <string name="reco_tx5">5. Show Never Stops</string>
+    <string name="reco_tx4">4. Pick Up Artist</string>
+    <string name="reco_tx3">3. Quick Pickups</string>
+    <string name="reco_tx2">2. Slow Pick Ups</string>
+    <string name="reco_tx1">1. Quitter</string>
+
+
+    <!--Technical Section-->
+    <string name="technical">Technical</string>
+
+    <!--Difficulty Sub-Section-->
+    <string name="difficulty">Difficulty</string>
+    <string name="diff_tx5">5. Signature Tricks</string>
+    <string name="diff_tx4">4. Advanced Tricks</string>
+    <string name="diff_tx3">3. Intermediate Tricks</string>
+    <string name="diff_tx2">2. Beginner Tricks</string>
+    <string name="diff_tx1">1. What tricks?</string>
+
+    <!--Power Sub-Section-->
+    <string name="power">Power</string>
+    <string name="powr_tx5">5. Superman</string>
+    <string name="powr_tx4">4. High Speed, Big Air</string>
+    <string name="powr_tx3">3. Good Speed, Good Air</string>
+    <string name="powr_tx2">2. Low Speed, Low Air</string>
+    <string name="powr_tx1">1. No Speed, No Air</string>
+
+    <!--Transitions Sub-Section-->
+    <string name="transitions">Transitions</string>
+    <string name="tran_tx5">5. Smooth and Coordinated</string>
+    <string name="tran_tx4">4. Mostly Fluid Combos</string>
+    <string name="tran_tx3">3. Few Combos</string>
+    <string name="tran_tx2">2. One Trick at a Time</string>
+    <string name="tran_tx1">1. N/A</string>
+
+    <!--Catches Sub-Section-->
+    <string name="catches">Catches</string>
+    <string name="catc_tx5">5. Perfect</string>
+    <string name="catc_tx4">4. Clean</string>
+    <string name="catc_tx3">3. Lucky</string>
+    <string name="catc_tx2">2 Some Drops</string>
+    <string name="catc_tx1">1. Sir Drops-A-Lot</string>
+
+    <!--Freezes Sub-Section-->
+    <string name="freezes">Freezes</string>
+    <string name="free_tx5">5. Crisp and At Correct Times</string>
+    <string name="free_tx4">4. Many Good Freezes</string>
+    <string name="free_tx3">3. Somewhat Effective</string>
+    <string name="free_tx2">2. Random</string>
+    <string name="free_tx1">1. No Freezes</string>
+
+    <!--Bonus spinner array-->
+    <string name="bonus">Bonus Points</string>
+    <string-array name="bonus_array">
+        <item>None</item>
+        <item>High Wind (+5 Pts)</item>
+        <item>Drizzle/Rain (+5 Pts)</item>
+        <item>Heat Wave (+5 Pts)</item>
+        <item>Client Testimonial (+5 Pts)</item>
+        <item>Whack Sign (+5 Pts)</item>
+    </string-array>
+
+    <!--Demerit spinner array-->
+    <string name="demerit">Demerit Points</string>
+    <string-array name="demerit_array">
+        <item>None</item>
+        <item>5 Min Over Break (-5 Pts)</item>
+        <item>10 Min Over Break (-10 Pts)</item>
+        <item>Incorrect Break Time (-10 Pts)</item>
+        <item>Exessive Ph/mp3 Use (-5 Pts)</item>
+        <item>Client Complaint (-10 Pts)</item>
+    </string-array>
+
+    <string name="rb_yes">Yes</string>
+    <string name="rb_no">No</string>
+
+    <string name="audit_summary">Audit Summary</string>
+    <string name="great_at">Doing Great At</string>
+    <string name="bad_at">Tips For Improvement</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+
+    <string name="great_at_hint">Love your dance moves!</string>
+    <string name="bad_at_hint">Concentrate on hitting more targets.</string>
+    <string name="submit_button">SUBMIT AUDIT</string>
+    <string name="totalPoints">Total Points =</string>
+
+    <!--Preparedness title questions-->
+    <string name="confirmation_qtext">Did the Spinner confirm?</string>
+    <string name="arrival_qtext">Arrival text sent to manager?</string>
+    <string name="sis_qtext">Sign in sheets in the office?</string>
+    <string name="ontime_qtext">Did they show up on time?</string>
+    <string name="water_qtext">Does the spinner have water?</string>
+
+    <!--Energy title questions-->
+    <string name="personality_qtext">How is their personality shining through?</string>
+    <string name="spinteraction_qtext">Do they interact with the audience?</string>
+    <string name="dancing_qtext">Dancing and moving the feet?</string>
+    <string name="endurance_qtext">Going in to beast mode?</string>
+    <string name="recovery_qtext">How do they recover from drops or fails?</string>
+
+    <!--Advertising title questions-->
+    <string name="aam_qtext">Utilizing the AArrow Attention Method?</string>
+    <string name="presentation_qtext">How do they present the sign?</string>
+    <string name="eyecontact_qtext">Making eye contact with audience?</string>
+    <string name="awareness_qtext">How is their corner awareness?</string>
+    <string name="safety_qtext">Are they practicing safe sign spinning?</string>
+
+    <!--Appearance title questions-->
+    <string name="smile_qtext">Are they smiling for the camera?</string>
+    <string name="uniform_qtext">Rocking the AArrow gear?</string>
+    <string name="style_qtext">How\'s their AArrow style?</string>
+    <string name="direction_qtext">Are they consistently pointing the right way?</string>
+    <string name="positioning_qtext">Are they actively positioningPoints themselves?</string>
+
+    <!--Technical title questions-->
+    <string name="difficulty_qtext">How difficult are their tricks?</string>
+    <string name="power_qtext">How powerful are they spinning?</string>
+    <string name="transitions_qtext">How are their transitions during combos?</string>
+    <string name="catches_qtext">Can they catch the sign?</string>
+    <string name="freezes_qtext">Timely freezes for the audience?</string>
+    <string name="audit_values">audit_values</string>
+
+
+</resources>
