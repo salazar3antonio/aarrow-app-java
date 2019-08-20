@@ -1,6 +1,8 @@
 # AArrow Advertising App - March 2016 - Java Version
 Proof of concept app I built in March 2016 for [AArrow Advertising.](http://aarrowsignspinners.com/) 
 
+Currently building the [Kotlin version](https://github.com/salazar3antonio/aarrow-app-kotlin) of this app. 
+
 ## Videos
 - [Alpha Demo](https://www.youtube.com/watch?v=zxFfAcW4bmY&list=WL&index=2&t=0s)
 - [Corperate Presentation](https://www.youtube.com/watch?v=zllzFg9Xb34&list=WL&index=2)
