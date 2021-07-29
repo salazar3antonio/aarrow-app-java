@@ -1,4 +1,4 @@
-# AArrow Advertising App - March 2016 - Java Version
+# AArrow Advertising Android App - March 2016 - Java Version
 Proof of concept app I built in March 2016 for [AArrow Advertising.](http://aarrowsignspinners.com/) 
 
 Currently building the [Kotlin version](https://github.com/salazar3antonio/aarrow-app-kotlin) of this app. 
@@ -8,7 +8,7 @@ Currently building the [Kotlin version](https://github.com/salazar3antonio/aarro
 - [Corperate Presentation](https://www.youtube.com/watch?v=zllzFg9Xb34&list=WL&index=2)
 
 ## Goal
-Take a paper-based performance evaluation process and digitize it in order to increase manager and employee productivity. 
+Build a mobile app that transoforms a paper-based performance evaluation process and digitize it in order to increase manager productivity. 
 
 ## Old Process
 Managers out in the field had to rely on paper audit sheets when giving performance evaluations to employees. 
